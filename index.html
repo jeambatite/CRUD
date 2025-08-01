@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Sin Base de Datos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="fondo">
+  <h1>Gestión de Usuarios</h1>
+
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Ingrese nombre:" required>
+    <input type="email" id="email" placeholder="Ingrese correo:" required>
+    <button type="submit">Guardar</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="userTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
