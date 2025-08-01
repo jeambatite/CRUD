@@ -5,7 +5,7 @@ const form = document.getElementById("userForm");
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const userTable = document.getElementById("userTable");
-
+// js para simular base de datos
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
